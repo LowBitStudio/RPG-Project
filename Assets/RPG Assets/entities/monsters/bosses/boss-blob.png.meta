@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: f1e38e54c603e77419e7cce84edc9690
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3457488824603070996
+    second: boss-blob_0
+  - first:
+      213: -7305685805701568659
+    second: boss-blob_1
+  - first:
+      213: -1396410154001445481
+    second: boss-blob_2
+  - first:
+      213: 7000995694481203274
+    second: boss-blob_3
+  - first:
+      213: 5656376004354980099
+    second: boss-blob_4
+  - first:
+      213: 708611949201144051
+    second: boss-blob_5
+  - first:
+      213: -1088358521386637535
+    second: boss-blob_6
+  - first:
+      213: -7357937412490311401
+    second: boss-blob_7
+  - first:
+      213: -2484983975072845962
+    second: boss-blob_8
+  - first:
+      213: -5840126732684928846
+    second: boss-blob_9
+  - first:
+      213: -6204807186396140662
+    second: boss-blob_10
+  - first:
+      213: -765281429027533139
+    second: boss-blob_11
+  - first:
+      213: -6525263790033987609
+    second: boss-blob_12
+  - first:
+      213: -5376116203285508644
+    second: boss-blob_13
+  - first:
+      213: 4266870236303255408
+    second: boss-blob_14
+  - first:
+      213: -4827955419796873284
+    second: boss-blob_15
+  - first:
+      213: -2827364134030656919
+    second: boss-blob_16
+  - first:
+      213: -3566827274353298286
+    second: boss-blob_17
+  - first:
+      213: -2545716229598886323
+    second: boss-blob_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss-blob_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceda6aa8b388400d0800000000000000
+      internalID: -3457488824603070996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d676b86877dfc9a90800000000000000
+      internalID: -7305685805701568659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 82
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79dcef90d54fe9ce0800000000000000
+      internalID: -1396410154001445481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a406793cd78882160800000000000000
+      internalID: 7000995694481203274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3093f97d10c7f7e40800000000000000
+      internalID: 5656376004354980099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_5
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f83bbb30de75d900800000000000000
+      internalID: 708611949201144051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 0
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127ea70f0bf55e0f0800000000000000
+      internalID: -1088358521386637535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_7
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 0
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71945f848ea53e990800000000000000
+      internalID: -7357937412490311401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_8
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 0
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fae3d9d30938dd0800000000000000
+      internalID: -2484983975072845962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_9
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 0
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b85d0fcda3b3fea0800000000000000
+      internalID: -5840126732684928846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_10
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 0
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b211b0db814e9a0800000000000000
+      internalID: -6204807186396140662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_11
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 0
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae4c9d489c2165f0800000000000000
+      internalID: -765281429027533139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_12
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 0
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e71e41c72b9175a0800000000000000
+      internalID: -6525263790033987609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_13
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 0
+        width: 82
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd02f70cc23465b0800000000000000
+      internalID: -5376116203285508644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_14
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 0
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077ea818fd7f63b30800000000000000
+      internalID: 4266870236303255408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_15
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 0
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfd5931028affcb0800000000000000
+      internalID: -4827955419796873284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_16
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 0
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a3c64dc4f23c8d0800000000000000
+      internalID: -2827364134030656919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_17
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 0
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2943ff8ed75108ec0800000000000000
+      internalID: -3566827274353298286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-blob_18
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 0
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46cfc3b39ccbacd0800000000000000
+      internalID: -2545716229598886323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss-blob_0: -3457488824603070996
+      boss-blob_1: -7305685805701568659
+      boss-blob_10: -6204807186396140662
+      boss-blob_11: -765281429027533139
+      boss-blob_12: -6525263790033987609
+      boss-blob_13: -5376116203285508644
+      boss-blob_14: 4266870236303255408
+      boss-blob_15: -4827955419796873284
+      boss-blob_16: -2827364134030656919
+      boss-blob_17: -3566827274353298286
+      boss-blob_18: -2545716229598886323
+      boss-blob_2: -1396410154001445481
+      boss-blob_3: 7000995694481203274
+      boss-blob_4: 5656376004354980099
+      boss-blob_5: 708611949201144051
+      boss-blob_6: -1088358521386637535
+      boss-blob_7: -7357937412490311401
+      boss-blob_8: -2484983975072845962
+      boss-blob_9: -5840126732684928846
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

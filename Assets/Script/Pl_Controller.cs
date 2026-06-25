@@ -17,18 +17,19 @@ public class Pl_Controller : MonoBehaviour
     void Awake()
     {
         anim = GetComponentInChildren<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        
     }
 
     void Update()
     {
         //Updating the movement animation
         basicMovementAnim();
-        Debug.Log("this player is moving at: " + moveInput);
+        //Debug.Log("this player is moving at: " + moveInput);
     }
 
     // Update is called once per frame

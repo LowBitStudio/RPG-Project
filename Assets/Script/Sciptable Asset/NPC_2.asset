@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca5950c80ad2e1a4eac0bc215017e697, type: 3}
-  m_Name: Normal Type
+  m_Script: {fileID: 11500000, guid: b8df1afa5e4a00b41a5b1f327f2d3516, type: 3}
+  m_Name: NPC_2
   m_EditorClassIdentifier: 
-  enemy_Name: Normal Type
-  max_Health: 15
-  Enemyprefab: {fileID: 2895116783684866092, guid: 3098b34990edc6c42985dfa6f0b27282, type: 3}
+  npc_name: John
+  dialogue_line:
+  - Those slimes eat my baby!
+  typingspeed: 0.05
+  autoprogressline: 00
+  autoProgressDelay: 1.5

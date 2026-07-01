@@ -12,9 +12,17 @@ public class Battle_Controller : MonoBehaviour
     [SerializeField] private TextMeshProUGUI battle_text;
     //The current player data needs to be carried here
     //The current enemy data needs to be carried here for battle purposes
+    public EnemyType enemy;
+    private Enemy_Battle_Data SpawnedEnemy;
+    public Transform enemypos;
 
     void Start()
     {
+        if(EnemyData_Carrier.enemytoFight != null)
+        {
+            enemy = EnemyData_Carrier.enemytoFight;
+        }
+
         //Start the battle
         State = BattleState.Start;
         StartCoroutine(SetupBattle());
@@ -23,8 +31,12 @@ public class Battle_Controller : MonoBehaviour
     IEnumerator SetupBattle()
     {
         Debug.Log("Batlle has started!");
-        battle_text.text = "The enemy approaches!";
-        
+        battle_text.text = "The battle have started!";  
+        yield return new WaitForSeconds(2f);
+
+        GameObject enemyGO = Instantiate(enemy.Enemyprefab, enemypos.position, Quaternion.identity);  
+        SpawnedEnemy = enemyGO.GetComponent<Enemy_Battle_Data>();
+        battle_text.text = "The enemy approaches!";     
         yield return new WaitForSeconds(2f);
         
         State = BattleState.PlayerTurn;
@@ -42,11 +54,24 @@ public class Battle_Controller : MonoBehaviour
         battle_text.text = "Player goes on attack!";
         yield return new WaitForSeconds(2f);
 
-        battle_text.text = "Enemy received damage!";
+        float damagetoEnemy = 5f;
+
+        SpawnedEnemy.takeDMG(damagetoEnemy);
+        battle_text.text = "Enemy takes " + damagetoEnemy + " hits!";
         yield return new WaitForSeconds(2f);
 
-        State = BattleState.EnemyTurn;
-        StartCoroutine(EnemyTurn());
+        if(SpawnedEnemy.currenthealth <= 0)
+        {
+            //Player won the battle!
+            State = BattleState.Won;
+            battle_text.text = "You won the battle!";
+        }
+        else
+        {
+            //Giving turn back to enemy
+            State = BattleState.EnemyTurn;
+            StartCoroutine(EnemyTurn());
+        }
     }
 
     IEnumerator EnemyTurn()
@@ -65,6 +90,6 @@ public class Battle_Controller : MonoBehaviour
     public void AttackButton()
     {
         if(State != BattleState.PlayerTurn) return;
-        StartCoroutine(PlayerAttack());
+        else StartCoroutine(PlayerAttack());
     }
 }
